@@ -8,6 +8,13 @@ HRM executes sequential reasoning tasks in a single forward pass without explici
 Furthermore, HRM outperforms much larger models with significantly longer context windows on the Abstraction and Reasoning Corpus (ARC), a key benchmark for measuring artificial general intelligence capabilities.
 These results underscore HRM’s potential as a transformative advancement toward universal computation and general-purpose reasoning systems.
 
+## CPU run command
+
+```bash
+python pretrain.py data_path=data/sudoku-extreme-1k-aug-1000 epochs=1 eval_interval=1 global_batch_size=4 lr=7e-5 puzzle_emb_lr=7e-5 weight_decay=1.0 puzzle_emb_weight_decay=1.0
+```
+
+
 ## Quick Start Guide 🚀
 
 ### Prerequisites ⚙️
